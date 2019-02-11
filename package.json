@@ -1,0 +1,27 @@
+{
+  "name": "@coobo/spendfy-logger",
+  "version": "0.0.2-alpha",
+  "description": "Universal Logger for spendfy modules and services",
+  "main": "lib/logger.js",
+  "scripts": {
+    "test": "node test/log.js",
+    "start": "node lib/logger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coobo/universal-logger.git"
+  },
+  "author": "vimgas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coobo/universal-logger/issues"
+  },
+  "homepage": "https://github.com/Coobo/universal-logger#readme",
+  "dependencies": {
+    "express-winston": "^3.1.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.6.0",
+    "winston-mongodb": "^4.0.3",
+    "yn": "^3.0.0"
+  }
+}
