@@ -1,4 +1,5 @@
 process.env.APP_NAME = '!@#$%¨&*()_+=-´`[]~^}{/?°ºª;:.,<>¹²³£¢¬\\|"\'';
+process.env.NODE_ENV = 'production';
 
 const logger = require('./../');
 
