@@ -65,3 +65,10 @@ import { SystemLogger, APILogger, SQLLogger } from '@coobo/spendfy-logger';
   }
 }
 ```
+
+To publish the package:
+
+```sh
+git tag -a ${VERSION} -m "${TAG_MESSAGE}"
+npm publish --access public
+```
