@@ -1,10 +1,10 @@
 {
   "name": "@coobo/spendfy-logger",
-  "version": "0.0.2-alpha",
+  "version": "0.0.3-alpha",
   "description": "Universal Logger for spendfy modules and services",
   "main": "lib/logger.js",
   "scripts": {
-    "test": "node test/log.js",
+    "test": "node test/development.test.js && node test/staging.test.js && node test/production.test.js",
     "start": "node lib/logger.js"
   },
   "repository": {
