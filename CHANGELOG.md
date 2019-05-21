@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.4-a] - 2019-05-21
+## [v1.0.0-a] - 2019-05-21
 
 ### Added
 
@@ -30,6 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Development SQL Logger no longer transports to FILE
 
-[unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/0.0.4-alpha...HEAD
-[0.0.4-alpha]: https://github.com/olivierlacan/keep-a-changelog/compare/0.0.3-alpha...0.0.4-alpha
+[unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.0.0-a...HEAD
+[v1.0.0-a]: https://github.com/olivierlacan/keep-a-changelog/compare/0.0.3-alpha...v1.0.0-a
 [0.0.3-alpha]: https://github.com/olivierlacan/keep-a-changelog/compare/0.0.3-alpha...0.0.3-alpha

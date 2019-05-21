@@ -1,6 +1,6 @@
 {
   "name": "@coobo/spendfy-logger",
-  "version": "0.0.6-alpha",
+  "version": "1.0.0-a",
   "description": "Universal Logger for spendfy modules and services",
   "main": "lib/logger.js",
   "scripts": {
