@@ -4,7 +4,7 @@
   "description": "Universal Logger for spendfy modules and services",
   "main": "lib/logger.js",
   "scripts": {
-    "test": "node test/development.test.js && node test/staging.test.js && node test/production.test.js",
+    "test": "node test/development.test.js && node test/staging.test.js && node test/production.test.js && node test/testing.test.js",
     "start": "node lib/logger.js"
   },
   "repository": {
@@ -20,8 +20,8 @@
   "dependencies": {
     "express-winston": "^3.1.0",
     "winston": "^3.2.1",
-    "winston-daily-rotate-file": "^3.6.0",
-    "winston-mongodb": "^4.0.3",
-    "yn": "^3.0.0"
+    "winston-daily-rotate-file": "3.9.0",
+    "winston-mongodb": "4.0.9",
+    "yn": "3.1.0"
   }
 }
